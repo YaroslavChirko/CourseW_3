@@ -1,0 +1,82 @@
+@charset "UTF-8";
+#container {
+  align-items:center;
+  height:100%;
+}
+html, body { 
+	height: 100%; 
+	width: 100%; 
+	margin: 0; 
+	background-color:#FFFACD;
+}
+
+.title{
+	width :50%;
+	margin-left:25%;
+	align-items: stretch;
+	word-break:normal; 
+    overflow-x: hidden; 
+    overflow-y: auto; 
+}
+
+.submitForms{
+	margin-left:45%;
+	align-items: center;
+	 
+}
+
+.msgField{
+	width :50%;
+	margin-left:25%;
+	 height: 50%; 
+	align-items: stretch;
+	word-break:normal; 
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    background-color:white;
+}
+
+.sign{
+	 text-align: center;
+	 height: 500px; 
+}
+
+
+
+#sign_fm{
+	position:relative;
+	margin:25%;
+}
+
+.button{
+	margin-top:10%;
+	width: 10%;
+	height: 4%;
+	background-color:#FFE4E1;
+	text-align: center;
+	cursor: pointer
+}
+.groups{
+	
+	width :20%;
+	margin-right:0%;
+	margin-top:0%;
+	position:fixed;
+	height: 50%; 
+	word-break:normal; 
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+
+textarea {
+  resize: none;
+}
+
+footer{
+	background-color:#00FFFF;
+	word-break:break-all;
+	 left:0;
+	 bottom:0;
+     width: 100%;
+	 text-align: center;
+}
